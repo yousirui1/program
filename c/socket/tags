@@ -1,0 +1,334 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AllocNALU	h264.c	/^NALU_t *AllocNALU(int buffersize)$/;"	f
+BACKLOG	bak/test/server.c	12;"	d	file:
+BOOL	typedef.h	/^typedef int           BOOL;         \/*  Signed  32 bit as bool *\/$/;"	t
+BUFFER_SIZE	bak/client.c	8;"	d	file:
+BUFFER_SIZE	bak/file.h	2;"	d
+BUFFER_SIZE	main.c	17;"	d	file:
+BUFFER_SIZE	ser/main.c	14;"	d	file:
+BYTE	typedef.h	/^typedef unsigned short BYTE;        \/* 16bit *\/$/;"	t
+CC	Makefile	/^CC := gcc$/;"	m
+CC	ser/Makefile	/^CC := gcc$/;"	m
+CHAR8	typedef.h	/^typedef signed char CHAR8;          \/* Signed    8 bit quantity *\/$/;"	t
+CLIENTPORT	bak/client.c	9;"	d	file:
+CLOCK_MONOTONIC	h264.c	386;"	d	file:
+DEBUG	typedef.h	29;"	d
+DEBUG	typedef.h	31;"	d
+DEST_IP	bak/test/client.c	13;"	d	file:
+DEST_PORT	bak/test/client.c	12;"	d	file:
+DWORD	typedef.h	/^typedef unsigned int DWORD;         \/* 32bit *\/$/;"	t
+E	h264.h	/^	unsigned char E:1;$/;"	m	struct:__anon4
+F	h264.h	/^	unsigned char F:1;    $/;"	m	struct:__anon3
+F	h264.h	/^	unsigned char F:1; $/;"	m	struct:__anon2
+FALSE	typedef.h	24;"	d
+FOURCC	typedef.h	/^typedef unsigned int FOURCC;        \/* 32bit *\/$/;"	t
+FU_HEADER	h264.h	/^}FU_HEADER;$/;"	t	typeref:struct:__anon4
+FU_INDICATOR	h264.h	/^}FU_INDICATOR; \/**\/\/* 1 BYTES *\/$/;"	t	typeref:struct:__anon3
+FindStartCode2	h264.c	/^static int FindStartCode2 (unsigned char *Buf)$/;"	f	file:
+FindStartCode3	h264.c	/^static int FindStartCode3 (unsigned char *Buf)$/;"	f	file:
+FreeNALU	h264.c	/^void FreeNALU(NALU_t *n)$/;"	f
+GetAnnexbNALU	h264.c	/^int GetAnnexbNALU (NALU_t *nalu,char* data,int len,int* readcnt)$/;"	f
+GetTickCount	h264.c	/^unsigned long GetTickCount()$/;"	f
+H264	h264.h	9;"	d
+H264_SSRC	h264.h	12;"	d
+INCLUDE	Makefile	/^INCLUDE :=-I.\/include$/;"	m
+INCLUDE	ser/Makefile	/^INCLUDE :=-I.\/include$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS := -L.\/lib\/arm\/*.so$/;"	m
+LDFLAGS	ser/Makefile	/^LDFLAGS := -L.\/lib\/arm\/*.so$/;"	m
+LIBS	Makefile	/^LIBS := -lavformat -lswscale -lavcodec -lavutil$/;"	m
+LIBS	ser/Makefile	/^LIBS := -lavformat -lswscale -lavcodec -lavutil$/;"	m
+LoginRet	main.c	/^void LoginRet(unsigned char *buf, unsigned int len)$/;"	f
+MAX_DATA	bak/test/client.c	14;"	d	file:
+MAX_ORDER_LEN	rtsp_config.h	17;"	d
+MAX_PORT_LEN	rtsp_config.h	18;"	d
+MAX_RECV_LEN	rtsp_config.h	14;"	d
+MAX_RESP_LEN	rtsp_config.h	21;"	d
+MAX_ROWS	rtsp_config.h	20;"	d
+MAX_RTP_PKT_LENGTH	h264.h	7;"	d
+MAX_RTSP_CLIENT	rtsp_config.h	10;"	d
+MAX_SDP_LEN	rtsp_config.h	24;"	d
+MAX_SESSION_LEN	rtsp_config.h	19;"	d
+MAX_SETUP_PARA_LEN	rtsp_config.h	23;"	d
+MAX_TRANSPORT_LEN	rtsp_config.h	22;"	d
+NALU_HEADER	h264.h	/^}NALU_HEADER; \/**\/\/* 1 BYTES *\/$/;"	t	typeref:struct:__anon2
+NALU_SIZE	h264.h	15;"	d
+NALU_t	h264.h	/^} NALU_t;$/;"	t	typeref:struct:__anon5
+NRI	h264.h	/^	unsigned char NRI:2; $/;"	m	struct:__anon3
+NRI	h264.h	/^	unsigned char NRI:2;$/;"	m	struct:__anon2
+ORD_DESCRIBE	parsecmd.h	5;"	d
+ORD_GET_PARAMETER	parsecmd.h	8;"	d
+ORD_OPTIONS	parsecmd.h	4;"	d
+ORD_PAUSE	parsecmd.h	10;"	d
+ORD_PLAY	parsecmd.h	7;"	d
+ORD_SETUP	parsecmd.h	6;"	d
+ORD_TEARDOWN	parsecmd.h	9;"	d
+PACKET_BUFFER_END	h264.h	6;"	d
+PARA_CSEQ	parsecmd.h	12;"	d
+PARA_SESSION	parsecmd.h	13;"	d
+PARA_TRANSPORT	parsecmd.h	14;"	d
+PAUSE	rtsp_config.h	/^	PAUSE,$/;"	e	enum:play_stat
+PCM	h264.h	10;"	d
+PCM_SSRC	h264.h	13;"	d
+PLAY	rtsp_config.h	/^	PLAY=1,$/;"	e	enum:play_stat
+PORT	bak/test/server.c	11;"	d	file:
+R	h264.h	/^	unsigned char R:1;$/;"	m	struct:__anon4
+RTP_FIXED_HEADER	h264.h	/^}RTP_FIXED_HEADER;$/;"	t	typeref:struct:__anon1
+S	h264.h	/^	unsigned char S:1; $/;"	m	struct:__anon4
+SCHED_PRIORITY_DATAPROC	rtsp_config.h	8;"	d
+SERVER_PATH	bak/server.c	11;"	d	file:
+SERVER_PORT	bak/server.c	10;"	d	file:
+SERVER_PORT	rtsp_config.h	13;"	d
+SERVER_PORT_BASE	rtsp_config.h	15;"	d
+SERVER_SECTION	rtsp_config.h	12;"	d
+SERV_ERROR_RESP	parsecmd.h	16;"	d
+SHORT16	typedef.h	/^typedef signed short SHORT16;       \/* Signed   16 bit quantity *\/$/;"	t
+SINT32	typedef.h	/^typedef signed int SINT32;         \/* Signed   32 bit quantity *\/$/;"	t
+SLONG32	typedef.h	/^typedef signed int SLONG32;$/;"	t
+SLONG64	typedef.h	/^typedef long long SLONG64;          \/* signed 64 bit quantity *\/$/;"	t
+STATE_OFF	typedef.h	21;"	d
+STATE_ON	typedef.h	22;"	d
+STOP	rtsp_config.h	/^	STOP,	$/;"	e	enum:play_stat
+SendErrmsg	parsecmd.c	/^void SendErrmsg(struct serv_struct * _serv)$/;"	f
+SendRtspMsg	main.c	/^void SendRtspMsg(unsigned char buf, unsigned int len)$/;"	f
+TRUE	typedef.h	25;"	d
+TYPE	h264.h	/^	unsigned char TYPE:5;$/;"	m	struct:__anon2
+TYPE	h264.h	/^	unsigned char TYPE:5;$/;"	m	struct:__anon3
+TYPE	h264.h	/^	unsigned char TYPE:5;$/;"	m	struct:__anon4
+UCHAR8	typedef.h	/^typedef unsigned char UCHAR8;       \/* Unsigned  8 bit quantity *\/$/;"	t
+UINT32	typedef.h	/^typedef unsigned int UINT32;       \/* Unsigned 32 bit quantity *\/$/;"	t
+ULONG32	typedef.h	/^typedef unsigned int ULONG32;$/;"	t
+USHORT16	typedef.h	/^typedef unsigned short USHORT16;    \/* Unsigned 16 bit quantity *\/$/;"	t
+WORD	typedef.h	/^typedef unsigned short WORD;        \/* 16bit *\/ $/;"	t
+_INT_BUF	bak/httpd.c	18;"	d	file:
+_INT_LIS	bak/httpd.c	20;"	d	file:
+_TYPEDEF_H_	typedef.h	2;"	d
+__CONFIG_H_	rtsp_config.h	2;"	d
+__DEBUG__	typedef.h	27;"	d
+__H264_H__	h264.h	2;"	d
+__PARSE_CMD_H__	parsecmd.h	2;"	d
+_n	h264.c	/^NALU_t *_n;$/;"	v
+buf	h264.h	/^	char *buf;                    \/\/! contains the first byte followed by the EBSP$/;"	m	struct:__anon5
+cJSON	cJSON.h	/^typedef struct cJSON {$/;"	s
+cJSON	cJSON.h	/^} cJSON;$/;"	t	typeref:struct:cJSON
+cJSON_AddBoolToObject	cJSON.h	132;"	d
+cJSON_AddFalseToObject	cJSON.h	131;"	d
+cJSON_AddItemReferenceToArray	cJSON.c	/^void	cJSON_AddItemReferenceToArray(cJSON *array, cJSON *item)						{cJSON_AddItemToArray(array,create_reference(item));}$/;"	f
+cJSON_AddItemReferenceToObject	cJSON.c	/^void	cJSON_AddItemReferenceToObject(cJSON *object,const char *string,cJSON *item)	{cJSON_AddItemToObject(object,string,create_reference(item));}$/;"	f
+cJSON_AddItemToArray	cJSON.c	/^void   cJSON_AddItemToArray(cJSON *array, cJSON *item)						{cJSON *c=array->child;if (!item) return; if (!c) {array->child=item;} else {while (c && c->next) c=c->next; suffix_object(c,item);}}$/;"	f
+cJSON_AddItemToObject	cJSON.c	/^void   cJSON_AddItemToObject(cJSON *object,const char *string,cJSON *item)	{if (!item) return; if (item->string) cJSON_free(item->string);item->string=cJSON_strdup(string);cJSON_AddItemToArray(object,item);}$/;"	f
+cJSON_AddNullToObject	cJSON.h	129;"	d
+cJSON_AddNumberToObject	cJSON.h	133;"	d
+cJSON_AddStringToObject	cJSON.h	134;"	d
+cJSON_AddTrueToObject	cJSON.h	130;"	d
+cJSON_Array	cJSON.h	37;"	d
+cJSON_CreateArray	cJSON.c	/^cJSON *cJSON_CreateArray(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_Array;return item;}$/;"	f
+cJSON_CreateBool	cJSON.c	/^cJSON *cJSON_CreateBool(int b)					{cJSON *item=cJSON_New_Item();if(item)item->type=b?cJSON_True:cJSON_False;return item;}$/;"	f
+cJSON_CreateDoubleArray	cJSON.c	/^cJSON *cJSON_CreateDoubleArray(const double *numbers,int count)	{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateNumber(numbers[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateFalse	cJSON.c	/^cJSON *cJSON_CreateFalse(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_False;return item;}$/;"	f
+cJSON_CreateFloatArray	cJSON.c	/^cJSON *cJSON_CreateFloatArray(const float *numbers,int count)	{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateNumber(numbers[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateIntArray	cJSON.c	/^cJSON *cJSON_CreateIntArray(const int *numbers,int count)		{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateNumber(numbers[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateNull	cJSON.c	/^cJSON *cJSON_CreateNull(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_NULL;return item;}$/;"	f
+cJSON_CreateNumber	cJSON.c	/^cJSON *cJSON_CreateNumber(double num)			{cJSON *item=cJSON_New_Item();if(item){item->type=cJSON_Number;item->valuedouble=num;item->valueint=(int)num;}return item;}$/;"	f
+cJSON_CreateObject	cJSON.c	/^cJSON *cJSON_CreateObject(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_Object;return item;}$/;"	f
+cJSON_CreateString	cJSON.c	/^cJSON *cJSON_CreateString(const char *string)	{cJSON *item=cJSON_New_Item();if(item){item->type=cJSON_String;item->valuestring=cJSON_strdup(string);}return item;}$/;"	f
+cJSON_CreateStringArray	cJSON.c	/^cJSON *cJSON_CreateStringArray(const char **strings,int count)	{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateString(strings[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateTrue	cJSON.c	/^cJSON *cJSON_CreateTrue(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_True;return item;}$/;"	f
+cJSON_Delete	cJSON.c	/^void cJSON_Delete(cJSON *c)$/;"	f
+cJSON_DeleteItemFromArray	cJSON.c	/^void   cJSON_DeleteItemFromArray(cJSON *array,int which)			{cJSON_Delete(cJSON_DetachItemFromArray(array,which));}$/;"	f
+cJSON_DeleteItemFromObject	cJSON.c	/^void   cJSON_DeleteItemFromObject(cJSON *object,const char *string) {cJSON_Delete(cJSON_DetachItemFromObject(object,string));}$/;"	f
+cJSON_DetachItemFromArray	cJSON.c	/^cJSON *cJSON_DetachItemFromArray(cJSON *array,int which)			{cJSON *c=array->child;while (c && which>0) c=c->next,which--;if (!c) return 0;$/;"	f
+cJSON_DetachItemFromObject	cJSON.c	/^cJSON *cJSON_DetachItemFromObject(cJSON *object,const char *string) {int i=0;cJSON *c=object->child;while (c && cJSON_strcasecmp(c->string,string)) i++,c=c->next;if (c) return cJSON_DetachItemFromArray(object,i);return 0;}$/;"	f
+cJSON_Duplicate	cJSON.c	/^cJSON *cJSON_Duplicate(cJSON *item,int recurse)$/;"	f
+cJSON_False	cJSON.h	32;"	d
+cJSON_GetArrayItem	cJSON.c	/^cJSON *cJSON_GetArrayItem(cJSON *array,int item)				{cJSON *c=array->child;  while (c && item>0) item--,c=c->next; return c;}$/;"	f
+cJSON_GetArraySize	cJSON.c	/^int    cJSON_GetArraySize(cJSON *array)							{cJSON *c=array->child;int i=0;while(c)i++,c=c->next;return i;}$/;"	f
+cJSON_GetErrorPtr	cJSON.c	/^const char *cJSON_GetErrorPtr(void) {return ep;}$/;"	f
+cJSON_GetObjectItem	cJSON.c	/^cJSON *cJSON_GetObjectItem(cJSON *object,const char *string)	{cJSON *c=object->child; while (c && cJSON_strcasecmp(c->string,string)) c=c->next; return c;}$/;"	f
+cJSON_Hooks	cJSON.h	/^typedef struct cJSON_Hooks {$/;"	s
+cJSON_Hooks	cJSON.h	/^} cJSON_Hooks;$/;"	t	typeref:struct:cJSON_Hooks
+cJSON_InitHooks	cJSON.c	/^void cJSON_InitHooks(cJSON_Hooks* hooks)$/;"	f
+cJSON_IsReference	cJSON.h	40;"	d
+cJSON_Minify	cJSON.c	/^void cJSON_Minify(char *json)$/;"	f
+cJSON_NULL	cJSON.h	34;"	d
+cJSON_New_Item	cJSON.c	/^static cJSON *cJSON_New_Item(void)$/;"	f	file:
+cJSON_Number	cJSON.h	35;"	d
+cJSON_Object	cJSON.h	38;"	d
+cJSON_Parse	cJSON.c	/^cJSON *cJSON_Parse(const char *value) {return cJSON_ParseWithOpts(value,0,0);}$/;"	f
+cJSON_ParseWithOpts	cJSON.c	/^cJSON *cJSON_ParseWithOpts(const char *value,const char **return_parse_end,int require_null_terminated)$/;"	f
+cJSON_Print	cJSON.c	/^char *cJSON_Print(cJSON *item)				{return print_value(item,0,1);}$/;"	f
+cJSON_PrintUnformatted	cJSON.c	/^char *cJSON_PrintUnformatted(cJSON *item)	{return print_value(item,0,0);}$/;"	f
+cJSON_ReplaceItemInArray	cJSON.c	/^void   cJSON_ReplaceItemInArray(cJSON *array,int which,cJSON *newitem)		{cJSON *c=array->child;while (c && which>0) c=c->next,which--;if (!c) return;$/;"	f
+cJSON_ReplaceItemInObject	cJSON.c	/^void   cJSON_ReplaceItemInObject(cJSON *object,const char *string,cJSON *newitem){int i=0;cJSON *c=object->child;while(c && cJSON_strcasecmp(c->string,string))i++,c=c->next;if(c){newitem->string=cJSON_strdup(string);cJSON_ReplaceItemInArray(object,i,newitem);}}$/;"	f
+cJSON_SetIntValue	cJSON.h	137;"	d
+cJSON_String	cJSON.h	36;"	d
+cJSON_True	cJSON.h	33;"	d
+cJSON__h	cJSON.h	24;"	d
+cJSON_free	cJSON.c	/^static void (*cJSON_free)(void *ptr) = free;$/;"	v	file:
+cJSON_malloc	cJSON.c	/^static void *(*cJSON_malloc)(size_t sz) = malloc;$/;"	v	file:
+cJSON_strcasecmp	cJSON.c	/^static int cJSON_strcasecmp(const char *s1,const char *s2)$/;"	f	file:
+cJSON_strdup	cJSON.c	/^static char* cJSON_strdup(const char* str)$/;"	f	file:
+check_clients_stat	parsecmd.c	/^void check_clients_stat()$/;"	f
+child	cJSON.h	/^	struct cJSON *child;		\/* An array or object item will have a child pointer pointing to a chain of the items in the array\/object. *\/$/;"	m	struct:cJSON	typeref:struct:cJSON::cJSON
+client_bev_write	parsecmd.c	/^void client_bev_write(struct serv_struct* _serv, char* buf,int len)$/;"	f
+client_ip	rtsp_config.h	/^	char client_ip[24];$/;"	m	struct:serv_struct
+client_mutex	main.c	/^pthread_mutex_t client_mutex;$/;"	v
+client_port0	main.c	/^unsigned int client_port0 = -1;$/;"	v
+client_port0	rtsp_config.h	/^	int client_port0;$/;"	m	struct:rtsp_para
+client_port1	main.c	/^unsigned int client_port1 = -1;$/;"	v
+client_port1	rtsp_config.h	/^	int client_port1;$/;"	m	struct:rtsp_para
+client_sockaddr	rtsp_config.h	/^	struct sockaddr * client_sockaddr;$/;"	m	struct:serv_struct	typeref:struct:serv_struct::sockaddr
+create_reference	cJSON.c	/^static cJSON *create_reference(cJSON *item) {cJSON *ref=cJSON_New_Item();if (!ref) return 0;memcpy(ref,item,sizeof(cJSON));ref->string=0;ref->type|=cJSON_IsReference;ref->next=ref->prev=0;return ref;}$/;"	f	file:
+create_server_socket	main.c	/^int create_server_socket(void)$/;"	f
+create_server_socket	ser/main.c	/^int create_server_socket(void)$/;"	f
+cseq	rtsp_config.h	/^	int cseq;$/;"	m	struct:rtsp_para
+csrc_len	h264.h	/^	unsigned char csrc_len:4;        \/**\/\/* expect 0 *\/$/;"	m	struct:__anon1
+current_time	main.c	/^time_t current_time;$/;"	v
+current_time	ser/main.c	/^time_t current_time;$/;"	v
+data	rtsp_config.h	/^	char* data;$/;"	m	struct:frame_data
+dec_header	main.c	/^void dec_header(int fd ,unsigned char *sendbuf, int len)$/;"	f
+dump	h264.c	/^void dump(NALU_t *n)$/;"	f
+ep	cJSON.c	/^static const char *ep;$/;"	v	file:
+extension	h264.h	/^	unsigned char extension:1;        \/**\/\/* expect 1, see RTP_OP below *\/$/;"	m	struct:__anon1
+fd	rtsp_config.h	/^	int fd;$/;"	m	struct:serv_struct
+file_init	bak/file.c	/^int file_init(char *Path)$/;"	f
+file_read	bak/file.c	/^char *file_read(char *Path, char *Name)$/;"	f
+file_write	bak/file.c	/^int file_write(char *Path, char *Name, char *Buf)$/;"	f
+firstByteMark	cJSON.c	/^static const unsigned char firstByteMark[7] = { 0x00, 0x00, 0xC0, 0xE0, 0xF0, 0xF8, 0xFC };$/;"	v	file:
+firstTime	rtsp_config.h	/^	struct timeval firstTime;$/;"	m	struct:rtp_param	typeref:struct:rtp_param::timeval
+flag	bak/httpd.c	/^int flag = 1;$/;"	v
+forbidden_bit	h264.h	/^	int forbidden_bit;            \/\/! should be always FALSE$/;"	m	struct:__anon5
+frame_data	rtsp_config.h	/^struct frame_data$/;"	s
+free_fn	cJSON.h	/^      void (*free_fn)(void *ptr);$/;"	m	struct:cJSON_Hooks
+fu_hdr	h264.c	/^FU_HEADER		*fu_hdr;$/;"	v
+fu_ind	h264.c	/^FU_INDICATOR	*fu_ind;$/;"	v
+get_client_ip	parsecmd.c	/^void get_client_ip(struct serv_struct* _serv,char* ip)$/;"	f
+get_client_istcp	parsecmd.c	/^int get_client_istcp(struct serv_struct* _serv)$/;"	f
+get_free_num	main.c	/^void get_free_num()$/;"	f
+get_h264_seq	parsecmd.c	/^unsigned short get_h264_seq(char dt)$/;"	f
+get_h264_timestmp	parsecmd.c	/^unsigned int get_h264_timestmp(char dt)$/;"	f
+get_ip	bak/server.c	/^int get_ip(unsigned char *ip_addr)$/;"	f
+get_session_id	parsecmd.c	/^int get_session_id(struct serv_struct* _serv)$/;"	f
+get_which_track	parsecmd.c	/^int get_which_track(struct serv_struct* _serv)$/;"	f
+h264_send_data	h264.c	/^void h264_send_data(char* data,int len,int datatype)$/;"	f
+h264_seq_num	rtsp_config.h	/^	unsigned short h264_seq_num;$/;"	m	struct:rtp_param
+h264_timestamp	rtsp_config.h	/^	unsigned int h264_timestamp;$/;"	m	struct:rtp_param
+increase_h264_seq	parsecmd.c	/^void increase_h264_seq(char dt)$/;"	f
+increase_h264_timestamp	parsecmd.c	/^void increase_h264_timestamp(char dt)$/;"	f
+index	rtsp_config.h	/^	unsigned long long index;$/;"	m	struct:frame_data
+info2	h264.c	/^static int info2=0, info3=0;$/;"	v	file:
+info3	h264.c	/^static int info2=0, info3=0;$/;"	v	file:
+init	bak/client.c	/^int init()$/;"	f
+init	bak/server.c	/^int  init()$/;"	f
+istcp	rtsp_config.h	/^	char istcp;$/;"	m	struct:rtsp_para
+lastvids_size	h264.c	/^int lastvids_size;$/;"	v
+len	h264.h	/^	unsigned len;                 \/\/! Length of the NAL unit (Excluding the start code, which does not belong to the NALU)$/;"	m	struct:__anon5
+login	main.c	/^void login(int fd)$/;"	f
+lost_packets	h264.h	/^	unsigned short lost_packets;  \/\/! true, if packet loss is detected$/;"	m	struct:__anon5
+main	bak/client.c	/^int main()$/;"	f
+main	bak/httpd.c	/^int main()$/;"	f
+main	bak/server.c	/^int main()$/;"	f
+main	bak/test/client.c	/^int main()$/;"	f
+main	bak/test/server.c	/^int main()$/;"	f
+main	main.c	/^int main()$/;"	f
+main	ser/main.c	/^int main()$/;"	f
+malloc_fn	cJSON.h	/^      void *(*malloc_fn)(size_t sz);$/;"	m	struct:cJSON_Hooks
+marker	h264.h	/^	unsigned char marker:1;        \/**\/\/* expect 1 *\/$/;"	m	struct:__anon1
+max_size	h264.h	/^	unsigned max_size;            \/\/! Nal Unit Buffer size$/;"	m	struct:__anon5
+memcpy_transport	parsecmd.c	/^void memcpy_transport(char* buf,struct serv_struct* _serv)$/;"	f
+nal_reference_idc	h264.h	/^	int nal_reference_idc;        \/\/! NALU_PRIORITY_xxxx$/;"	m	struct:__anon5
+nal_unit_type	h264.h	/^	int nal_unit_type;            \/\/! NALU_TYPE_xxxx    $/;"	m	struct:__anon5
+nalu_hdr	h264.c	/^NALU_HEADER		*nalu_hdr;$/;"	v
+next	cJSON.h	/^	struct cJSON *next,*prev;	\/* next\/prev allow you to walk array\/object chains. Alternatively, use GetArraySize\/GetArrayItem\/GetObjectItem *\/$/;"	m	struct:cJSON	typeref:struct:cJSON::cJSON
+order	rtsp_config.h	/^	char order[MAX_ORDER_LEN];$/;"	m	struct:rtsp_para
+order_para	rtsp_config.h	/^	char order_para[MAX_SETUP_PARA_LEN];$/;"	m	struct:rtsp_para
+padding	h264.h	/^	unsigned char padding:1;        \/**\/\/* expect 0 *\/$/;"	m	struct:__anon1
+parse_array	cJSON.c	/^static const char *parse_array(cJSON *item,const char *value)$/;"	f	file:
+parse_cmd	parsecmd.c	/^int parse_cmd(struct serv_struct * _serv,char* msg,int len)$/;"	f
+parse_hex4	cJSON.c	/^static unsigned parse_hex4(const char *str)$/;"	f	file:
+parse_number	cJSON.c	/^static const char *parse_number(cJSON *item,const char *num)$/;"	f	file:
+parse_object	cJSON.c	/^static const char *parse_object(cJSON *item,const char *value)$/;"	f	file:
+parse_string	cJSON.c	/^static const char *parse_string(cJSON *item,const char *str)$/;"	f	file:
+parse_value	cJSON.c	/^static const char *parse_value(cJSON *item,const char *value)$/;"	f	file:
+payload	h264.h	/^	unsigned char payload:7;        \/**\/\/* RTP_PAYLOAD_RTSP *\/$/;"	m	struct:__anon1
+pcm_firstTime	rtsp_config.h	/^	struct timeval pcm_firstTime;$/;"	m	struct:rtp_param	typeref:struct:rtp_param::timeval
+pcm_send_data	h264.c	/^void pcm_send_data(char* data,int size,char dt)$/;"	f
+pcm_seq_num	rtsp_config.h	/^	unsigned short pcm_seq_num;$/;"	m	struct:rtp_param
+pcm_timestamp	rtsp_config.h	/^   	unsigned int pcm_timestamp;	$/;"	m	struct:rtp_param
+play_stat	rtsp_config.h	/^enum play_stat$/;"	g
+playstat	rtsp_config.h	/^	enum play_stat playstat;	$/;"	m	struct:serv_struct	typeref:enum:serv_struct::play_stat
+prev	cJSON.h	/^	struct cJSON *next,*prev;	\/* next\/prev allow you to walk array\/object chains. Alternatively, use GetArraySize\/GetArrayItem\/GetObjectItem *\/$/;"	m	struct:cJSON	typeref:struct:cJSON::
+print_array	cJSON.c	/^static char *print_array(cJSON *item,int depth,int fmt)$/;"	f	file:
+print_number	cJSON.c	/^static char *print_number(cJSON *item)$/;"	f	file:
+print_object	cJSON.c	/^static char *print_object(cJSON *item,int depth,int fmt)$/;"	f	file:
+print_string	cJSON.c	/^static char *print_string(cJSON *item)	{return print_string_ptr(item->valuestring);}$/;"	f	file:
+print_string_ptr	cJSON.c	/^static char *print_string_ptr(const char *str)$/;"	f	file:
+print_value	cJSON.c	/^static char *print_value(cJSON *item,int depth,int fmt)$/;"	f	file:
+process_cmd	parsecmd.c	/^void process_cmd(struct serv_struct * _serv)$/;"	f
+request_accept	bak/httpd.c	/^void * request_accept(void *arg)$/;"	f
+response_200	bak/httpd.c	/^void response_200(int fd)$/;"	f
+response_400	bak/httpd.c	/^void response_400(int fd)$/;"	f
+response_app	bak/httpd.c	/^void response_app(int fd)$/;"	f
+response_file	bak/httpd.c	/^void response_file(int fd)$/;"	f
+rtp_hdr	h264.c	/^RTP_FIXED_HEADER        *rtp_hdr;$/;"	v
+rtp_pa	main.c	/^struct rtp_param rtp_pa;$/;"	v	typeref:struct:rtp_param
+rtp_param	rtsp_config.h	/^struct rtp_param$/;"	s
+rtp_send_data	parsecmd.c	/^int rtp_send_data(char *buf, int len, char dt)$/;"	f
+rtsp_client	main.c	/^struct serv_struct *rtsp_client;$/;"	v	typeref:struct:serv_struct
+rtsp_pa	rtsp_config.h	/^	struct rtsp_para * rtsp_pa; $/;"	m	struct:serv_struct	typeref:struct:serv_struct::rtsp_para
+rtsp_para	rtsp_config.h	/^struct rtsp_para$/;"	s
+save_opt1	rtsp_config.h	/^	int save_opt1;$/;"	m	struct:serv_struct
+save_opt2	rtsp_config.h	/^	int save_opt2;$/;"	m	struct:serv_struct
+save_opt3	rtsp_config.h	/^	int save_opt3;$/;"	m	struct:serv_struct
+select_loop	main.c	/^void select_loop(int fd)$/;"	f
+send_pcm	h264.c	/^void send_pcm(char* sendbuf,int len )$/;"	f
+seq_no	h264.h	/^	unsigned short seq_no;$/;"	m	struct:__anon1
+serstat	bak/httpd.c	/^int serstat()$/;"	f
+serv_port0	rtsp_config.h	/^	int serv_port0;$/;"	m	struct:rtsp_para
+serv_port1	rtsp_config.h	/^	int serv_port1;$/;"	m	struct:rtsp_para
+serv_struct	rtsp_config.h	/^struct serv_struct$/;"	s
+server_ip	rtsp_config.h	/^	char server_ip[24];$/;"	m	struct:serv_struct
+session	rtsp_config.h	/^	char session[MAX_SESSION_LEN];$/;"	m	struct:rtsp_para
+session_id	rtsp_config.h	/^	int session_id;$/;"	m	struct:serv_struct
+set_client_istcp	parsecmd.c	/^void set_client_istcp(struct serv_struct* _serv)$/;"	f
+set_client_stat	parsecmd.c	/^void set_client_stat(struct serv_struct* _serv,enum play_stat stat)$/;"	f
+size	rtsp_config.h	/^	int size;$/;"	m	struct:frame_data
+skip	cJSON.c	/^static const char *skip(const char *in) {while (in && *in && (unsigned char)*in<=32) in++; return in;}$/;"	f	file:
+sprintf_cseq	parsecmd.c	/^void sprintf_cseq(char* ptr,struct serv_struct* _serv)$/;"	f
+sprintf_date	parsecmd.c	/^void sprintf_date(char* ptr)$/;"	f
+sprintf_session_id	parsecmd.c	/^void sprintf_session_id(char* ptr,struct serv_struct* _serv)$/;"	f
+sscanf_client_port	parsecmd.c	/^int sscanf_client_port(char* client_port,struct serv_struct* _serv,int which_track)$/;"	f
+sscanf_cseq	parsecmd.c	/^void sscanf_cseq(char* buf,struct serv_struct* _serv)$/;"	f
+sscanf_tcp_channel	parsecmd.c	/^int sscanf_tcp_channel(char* channel,struct serv_struct* _serv)$/;"	f
+ssrc	h264.h	/^	unsigned long ssrc;$/;"	m	struct:__anon1
+startcodeprefix_len	h264.h	/^	int startcodeprefix_len;      \/\/! 4 for parameter sets and first slice in picture, 3 for everything else (suggested)$/;"	m	struct:__anon5
+strcmp_describe	parsecmd.c	/^int strcmp_describe(struct serv_struct* _serv)$/;"	f
+strcmp_get_paramter	parsecmd.c	/^int strcmp_get_paramter(struct serv_struct* _serv)$/;"	f
+strcmp_options	parsecmd.c	/^int strcmp_options(struct serv_struct* _serv)$/;"	f
+strcmp_pause	parsecmd.c	/^int strcmp_pause(struct serv_struct* _serv)$/;"	f
+strcmp_play	parsecmd.c	/^int strcmp_play(struct serv_struct* _serv)$/;"	f
+strcmp_setup	parsecmd.c	/^int strcmp_setup(struct serv_struct* _serv)$/;"	f
+strcmp_teardown	parsecmd.c	/^int strcmp_teardown(struct serv_struct* _serv)$/;"	f
+strcpy_order	parsecmd.c	/^void strcpy_order(struct serv_struct* _serv,char* para)$/;"	f
+strcpy_order_para	parsecmd.c	/^void strcpy_order_para(struct serv_struct* _serv,char* para)$/;"	f
+strcpy_session	parsecmd.c	/^void strcpy_session(struct serv_struct* _serv,char* para)$/;"	f
+strcpy_transport	parsecmd.c	/^void strcpy_transport(struct serv_struct* _serv,char* para)$/;"	f
+string	cJSON.h	/^	char *string;				\/* The item's name string, if this item is the child of, or is in the list of subitems of an object. *\/$/;"	m	struct:cJSON
+suffix_object	cJSON.c	/^static void suffix_object(cJSON *prev,cJSON *item) {prev->next=item;item->prev=prev;}$/;"	f	file:
+tcp_channel	rtsp_config.h	/^	int tcp_channel;	$/;"	m	struct:rtsp_para
+timestamp	h264.h	/^	unsigned  long timestamp;$/;"	m	struct:__anon1
+transport	rtsp_config.h	/^   	char transport[MAX_TRANSPORT_LEN];$/;"	m	struct:rtsp_para
+type	cJSON.h	/^	int type;					\/* The type of the item, as above. *\/$/;"	m	struct:cJSON
+type	rtsp_config.h	/^	char type; \/\/ ”∆µ 0£¨“Ù∆µ 1$/;"	m	struct:frame_data
+udp_sock	rtsp_config.h	/^	int udp_sock;$/;"	m	struct:serv_struct
+udp_sock1	rtsp_config.h	/^	int udp_sock1;$/;"	m	struct:serv_struct
+udp_sockaddr0	rtsp_config.h	/^	struct sockaddr_in udp_sockaddr0;$/;"	m	struct:serv_struct	typeref:struct:serv_struct::sockaddr_in
+udp_sockaddr1	rtsp_config.h	/^	struct sockaddr_in udp_sockaddr1;$/;"	m	struct:serv_struct	typeref:struct:serv_struct::sockaddr_in
+valuedouble	cJSON.h	/^	double valuedouble;			\/* The item's number, if type==cJSON_Number *\/$/;"	m	struct:cJSON
+valueint	cJSON.h	/^	int valueint;				\/* The item's number, if type==cJSON_Number *\/$/;"	m	struct:cJSON
+valuestring	cJSON.h	/^	char *valuestring;			\/* The item's string, if type==cJSON_String *\/$/;"	m	struct:cJSON
+version	h264.h	/^	unsigned char version:2;        \/**\/\/* expect 2 *\/$/;"	m	struct:__anon1
